@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/loifloro/frontend-mentor-challenges)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/loifloro/frontend-mentor-challenges)
+- Live Site URL: [Heroku](https://nft-preview-card-loifloro.herokuapp.com/ )
 
 ## My process
 
