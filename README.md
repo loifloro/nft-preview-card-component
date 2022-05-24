@@ -93,7 +93,7 @@ The on where I want to know more is this part where the span isnt now the same a
 ## Author
 
 - Website - [John Lois Floro](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/loifloro)
+- Frontend Mentor - [@loifloro](https://www.frontendmentor.io/profile/loifloro)
 - Twitter - [@dumb_loixx](https://www.twitter.com/@dumb_loixx)
 
 ## Acknowledgments
