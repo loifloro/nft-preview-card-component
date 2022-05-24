@@ -1,24 +1,23 @@
-/* 
-Primary Font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-Accent Color: rgb(11,166,167)
-*/
+/* See style-guide.md for referrence */
+
 body {
-    background: rgb(12,26,44);
+    background: hsl(216, 54%, 11%);
 }
 
 hr {
-    border: 1px solid rgba(167, 173, 179, 0.242);
+    border: 1px solid hsl(215, 32%, 27%);
     margin-block: 15px;
 }
 
 .container {
-    background: linear-gradient(to left bottom ,rgb(21,39,62) , rgb(30,39,63));
+    background: linear-gradient(to left bottom ,hsl(216, 50%, 16%) , hsl(213, 47%, 13%));
     box-shadow: 10px 20px 5px rgb(12,22,40) ;
     border-radius: 10px;
     padding: 20px 25px;
     width: min-content;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Outfit ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     position: absolute;
     top: 50%;
@@ -63,7 +62,7 @@ hr {
 } */
 
 .container__title {
-    color: rgb(240, 240, 240);
+    color: hsl(0, 0%, 100%);
     font-size: larger;
     font-weight: bold;
 
@@ -72,7 +71,7 @@ hr {
 }
 
 .container__title:hover {
-    color: rgb(0,255,248);
+    color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
 
@@ -82,6 +81,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     padding-block: 5px;
+    font-size: 18px;
 }
 
 .container__caption {
