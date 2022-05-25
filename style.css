@@ -90,16 +90,25 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    vertical-align: middle;
 }
 
 .container__caption-eth{
     color: rgb(0,255,248);
     font-weight: bold;
-    
+    margin-inline: 3px;
 }
 
+.container__caption--right > * {
+    vertical-align: middle;
+}
+
+.container__caption--left > * {
+    vertical-align: middle;
+}
 .container__caption-day {
     color: rgb(139,172,217);
+    margin-inline: 3px;
 }
 
 .container__avatar {
@@ -134,7 +143,9 @@ hr {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(167, 173, 179);
     text-align: center; 
-    /* background: rgb(55, 100, 30); */
+    
+    position: absolute;
+    bottom: 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
