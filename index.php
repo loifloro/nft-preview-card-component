@@ -11,7 +11,7 @@
 
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <div class="container__img">
       <img src="images/image-equilibrium.jpg" alt="" srcset="" class="container__img--orig">
       <img src="images/icon-view.svg" alt="" srcset="" class="container__img--overlay">
@@ -19,8 +19,14 @@
     <span class="container__title">Equilibrium #3429</span>
     <detail class="container__subtitle">Our Equilibrium collection promotes balance and calm.</detail>
     <div class="container__caption">
-      <img src="images/icon-ethereum.svg" alt="" srcset="" class="container__img-eth"><span class="container__caption-eth"> 0.041 ETH</span>
-      <img src="images/icon-clock.svg" alt="" srcset=""><span class="container__caption-day"> 3 days left</span>
+      <div class="container__caption--right">
+        <img src="images/icon-ethereum.svg" alt="" srcset="" class="container__img-eth">
+        <span class="container__caption-eth"> 0.041 ETH</span>
+      </div>
+      <div class="container__caption--left">
+        <img src="images/icon-clock.svg" alt="" srcset="">
+        <span class="container__caption-day"> 3 days left</span>
+      </div>
     </div>
     
     <hr>
@@ -28,11 +34,11 @@
       <img src="images/image-avatar.png" alt="" srcset="" class="container__avatar">
       <span class="container__credits--creation">Creation of <span class="container__credits--name">Jules Wyvern</span></span>
     </div>
-  </div>
-  <div class="attribution">
+</main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">John Lois Floro</a>.
-  </div>
+</footer>
   
 </body>
 </html>
