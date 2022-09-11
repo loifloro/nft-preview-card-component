@@ -1,0 +1,71 @@
+/**
+ * Basic typography style for copy text
+ */
+
+@use "../abstracts" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+html {
+  font-size: 18px;
+}
+
+/// Card
+.card {
+  &__title {
+    font: 600 1.5rem Outfit, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $white;
+
+    &:hover {
+      transition: all 600ms ease;
+      color: $cyan;
+      cursor: pointer;
+    }
+  }
+
+  &__body {
+    font: 300 1rem Outfit, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $soft-blue;
+  }
+
+  &__details {
+    font-family: Outfit, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  &__value {
+    font-weight: 600;
+    color: $cyan;
+  }
+
+  &__days {
+    font-weight: 300;
+    color: $soft-blue;
+  }
+}
+
+.author {
+  &__name {
+    font: 300 1rem Outfit, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $soft-blue;
+
+    &--highlight {
+      color: $white;
+
+      &:hover {
+        transition: all 600ms ease;
+        color: $cyan;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.attribution {
+    font-family: Outfit;
+    color: $white;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
